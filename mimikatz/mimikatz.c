@@ -172,7 +172,8 @@ NTSTATUS mimikatz_doLocal(wchar_t * input)
 {
 	NTSTATUS status = STATUS_SUCCESS;
 	int argc;
-	wchar_t ** argv = CommandLineToArgvW(input, &argc), *module = NULL, *command = NULL, *match;
+	wchar_t ** argv = CommandLineToArgvW(input, &argc);
+	wchar_t *module = NULL, *command = NULL, *match;
 	unsigned short indexModule, indexCommand;
 	BOOL moduleFound = FALSE, commandFound = FALSE;
 	
@@ -183,18 +184,37 @@ NTSTATUS mimikatz_doLocal(wchar_t * input)
 			if(module = (wchar_t *) LocalAlloc(LPTR, (match - argv[0] + 1) * sizeof(wchar_t)))
 			{
 				if((unsigned int) (match + 2 - argv[0]) < wcslen(argv[0]))
+				{
 					command = match + 2;
+				}
 				RtlCopyMemory(module, argv[0], (match - argv[0]) * sizeof(wchar_t));
 			}
 		}
-		else command = argv[0];
+		else
+		{
+			command = argv[0];
+		}
 
 		for(indexModule = 0; !moduleFound && (indexModule < ARRAYSIZE(mimikatz_modules)); indexModule++)
-			if(moduleFound = (!module || (_wcsicmp(module, mimikatz_modules[indexModule]->shortName) == 0)))
+			if(moduleFound = (!module
+						|| (_wcsicmp(module, mimikatz_modules[indexModule]->shortName) == 0)
+					)
+			)
+			{
 				if(command)
-					for(indexCommand = 0; !commandFound && (indexCommand < mimikatz_modules[indexModule]->nbCommands); indexCommand++)
+				{
+					for(indexCommand = 0; 
+					!commandFound 
+						&& (indexCommand < mimikatz_modules[indexModule]->nbCommands);
+					indexCommand++)
+					{
 						if(commandFound = _wcsicmp(command, mimikatz_modules[indexModule]->commands[indexCommand].command) == 0)
+						{
 							status = mimikatz_modules[indexModule]->commands[indexCommand].pCommand(argc - 1, argv + 1);
+						}
+					}
+				}
+			}
 
 		if(!moduleFound)
 		{
