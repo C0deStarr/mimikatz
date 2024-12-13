@@ -5,9 +5,6 @@
     <ClCompile Include="modules\kuhl_m_standard.c">
       <Filter>local modules</Filter>
     </ClCompile>
-    <ClCompile Include="modules\kuhl_m_crypto.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
     <ClCompile Include="modules\sekurlsa\kuhl_m_sekurlsa.c">
       <Filter>local modules\sekurlsa</Filter>
     </ClCompile>
@@ -28,12 +25,6 @@
     </ClCompile>
     <ClCompile Include="modules\sekurlsa\packages\kuhl_m_sekurlsa_wdigest.c">
       <Filter>local modules\sekurlsa\packages</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_privilege.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_process.c">
-      <Filter>local modules</Filter>
     </ClCompile>
     <ClCompile Include="..\modules\kull_m_memory.c">
       <Filter>common modules</Filter>
@@ -68,23 +59,11 @@
     <ClCompile Include="modules\sekurlsa\crypto\kuhl_m_sekurlsa_nt6.c">
       <Filter>local modules\sekurlsa\crypto</Filter>
     </ClCompile>
-    <ClCompile Include="modules\kuhl_m_ts.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_event.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_misc.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
     <ClCompile Include="..\modules\kull_m_handle.c">
       <Filter>common modules</Filter>
     </ClCompile>
     <ClCompile Include="..\modules\kull_m_token.c">
       <Filter>common modules</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_token.c">
-      <Filter>local modules</Filter>
     </ClCompile>
     <ClCompile Include="..\modules\kull_m_net.c">
       <Filter>common modules</Filter>
@@ -96,9 +75,6 @@
       <Filter>common modules</Filter>
     </ClCompile>
     <ClCompile Include="modules\kuhl_m_kernel.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_service.c">
       <Filter>local modules</Filter>
     </ClCompile>
     <ClCompile Include="modules\sekurlsa\packages\kuhl_m_sekurlsa_dpapi.c">
@@ -119,32 +95,17 @@
     <ClCompile Include="modules\kerberos\kuhl_m_kerberos_ticket.c">
       <Filter>local modules\kerberos</Filter>
     </ClCompile>
-    <ClCompile Include="modules\kuhl_m_lsadump.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_vault.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
     <ClCompile Include="modules\sekurlsa\packages\kuhl_m_sekurlsa_credman.c">
       <Filter>local modules\sekurlsa\packages</Filter>
     </ClCompile>
     <ClCompile Include="..\modules\kull_m_remotelib.c">
       <Filter>common modules</Filter>
     </ClCompile>
-    <ClCompile Include="modules\kuhl_m_lsadump_remote.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_service_remote.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
     <ClCompile Include="..\modules\kull_m_dpapi.c">
       <Filter>common modules</Filter>
     </ClCompile>
     <ClCompile Include="modules\kerberos\kuhl_m_kerberos_ccache.c">
       <Filter>local modules\kerberos</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_minesweeper.c">
-      <Filter>local modules</Filter>
     </ClCompile>
     <ClCompile Include="..\modules\kull_m_crypto.c">
       <Filter>common modules</Filter>
@@ -170,26 +131,14 @@
     <ClCompile Include="..\modules\kull_m_busylight.c">
       <Filter>common modules</Filter>
     </ClCompile>
-    <ClCompile Include="modules\kuhl_m_busylight.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
     <ClCompile Include="modules\dpapi\packages\kuhl_m_dpapi_wlan.c">
       <Filter>local modules\dpapi\packages</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_sysenvvalue.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_sid.c">
-      <Filter>local modules</Filter>
     </ClCompile>
     <ClCompile Include="modules\dpapi\packages\kuhl_m_dpapi_chrome.c">
       <Filter>local modules\dpapi\packages</Filter>
     </ClCompile>
     <ClCompile Include="..\modules\kull_m_xml.c">
       <Filter>common modules</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_iis.c">
-      <Filter>local modules</Filter>
     </ClCompile>
     <ClCompile Include="..\modules\rpc\kull_m_rpc.c">
       <Filter>common modules\rpc</Filter>
@@ -221,9 +170,6 @@
     <ClCompile Include="modules\kerberos\kuhl_m_kerberos_claims.c">
       <Filter>local modules\kerberos</Filter>
     </ClCompile>
-    <ClCompile Include="modules\kuhl_m_rpc.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
     <ClCompile Include="..\modules\rpc\kull_m_rpc_mimicom.c">
       <Filter>common modules\rpc</Filter>
     </ClCompile>
@@ -242,17 +188,11 @@
     <ClCompile Include="modules\crypto\kuhl_m_crypto_patch.c">
       <Filter>local modules\crypto</Filter>
     </ClCompile>
-    <ClCompile Include="modules\kuhl_m_sr98.c">
-      <Filter>local modules</Filter>
-    </ClCompile>
     <ClCompile Include="modules\crypto\kuhl_m_crypto_sc.c">
       <Filter>local modules\crypto</Filter>
     </ClCompile>
     <ClCompile Include="..\modules\kull_m_rdm.c">
       <Filter>common modules</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_rdm.c">
-      <Filter>local modules</Filter>
     </ClCompile>
     <ClCompile Include="..\modules\kull_m_hid.c">
       <Filter>common modules</Filter>
@@ -268,9 +208,6 @@
     </ClCompile>
     <ClCompile Include="..\modules\kull_m_acr.c">
       <Filter>common modules</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\kuhl_m_acr.c">
-      <Filter>local modules</Filter>
     </ClCompile>
     <ClCompile Include="modules\dpapi\packages\kuhl_m_dpapi_rdg.c">
       <Filter>local modules\dpapi\packages</Filter>
@@ -341,6 +278,69 @@
     <ClCompile Include="modules\misc\kuhl_m_misc_citrix.c">
       <Filter>local modules\misc</Filter>
     </ClCompile>
+    <ClCompile Include="modules\kuhl_m_privilege.c">
+      <Filter>local modules\privilege</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_process.c">
+      <Filter>local modules\process</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_lsadump.c">
+      <Filter>local modules\lsadump</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_lsadump_remote.c">
+      <Filter>local modules\lsadump</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_acr.c">
+      <Filter>local modules\acr</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_busylight.c">
+      <Filter>local modules\busylight</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_crypto.c">
+      <Filter>local modules\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_iis.c">
+      <Filter>local modules\iis</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_rpc.c">
+      <Filter>local modules\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_sid.c">
+      <Filter>local modules\sid</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_event.c">
+      <Filter>local modules\event</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_sr98.c">
+      <Filter>local modules\sr98</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_minesweeper.c">
+      <Filter>local modules\minesweeper</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_rdm.c">
+      <Filter>local modules\rdm</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_misc.c">
+      <Filter>local modules\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_ts.c">
+      <Filter>local modules\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_vault.c">
+      <Filter>local modules\vault</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_token.c">
+      <Filter>local modules\token</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_service.c">
+      <Filter>local modules\service</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_sysenvvalue.c">
+      <Filter>local modules\sysenv</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\kuhl_m_service_remote.c">
+      <Filter>local modules\service</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mimikatz.h" />
@@ -348,9 +348,6 @@
       <Filter>local modules</Filter>
     </ClInclude>
     <ClInclude Include="modules\kuhl_m_standard.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_crypto.h">
       <Filter>local modules</Filter>
     </ClInclude>
     <ClInclude Include="modules\sekurlsa\globals_sekurlsa.h">
@@ -376,12 +373,6 @@
     </ClInclude>
     <ClInclude Include="modules\sekurlsa\packages\kuhl_m_sekurlsa_wdigest.h">
       <Filter>local modules\sekurlsa\packages</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_privilege.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_process.h">
-      <Filter>local modules</Filter>
     </ClInclude>
     <ClInclude Include="..\modules\kull_m_memory.h">
       <Filter>common modules</Filter>
@@ -422,23 +413,11 @@
     <ClInclude Include="modules\sekurlsa\crypto\kuhl_m_sekurlsa_nt6.h">
       <Filter>local modules\sekurlsa\crypto</Filter>
     </ClInclude>
-    <ClInclude Include="modules\kuhl_m_ts.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_event.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_misc.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
     <ClInclude Include="..\modules\kull_m_handle.h">
       <Filter>common modules</Filter>
     </ClInclude>
     <ClInclude Include="..\modules\kull_m_token.h">
       <Filter>common modules</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_token.h">
-      <Filter>local modules</Filter>
     </ClInclude>
     <ClInclude Include="..\modules\kull_m_net.h">
       <Filter>common modules</Filter>
@@ -450,9 +429,6 @@
       <Filter>common modules</Filter>
     </ClInclude>
     <ClInclude Include="modules\kuhl_m_kernel.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_service.h">
       <Filter>local modules</Filter>
     </ClInclude>
     <ClInclude Include="modules\sekurlsa\packages\kuhl_m_sekurlsa_dpapi.h">
@@ -473,12 +449,6 @@
     <ClInclude Include="modules\kerberos\kuhl_m_kerberos_ticket.h">
       <Filter>local modules\kerberos</Filter>
     </ClInclude>
-    <ClInclude Include="modules\kuhl_m_lsadump.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_vault.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
     <ClInclude Include="..\modules\kull_m_samlib.h">
       <Filter>common modules</Filter>
     </ClInclude>
@@ -488,20 +458,11 @@
     <ClInclude Include="..\modules\kull_m_remotelib.h">
       <Filter>common modules</Filter>
     </ClInclude>
-    <ClInclude Include="modules\kuhl_m_lsadump_remote.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_service_remote.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
     <ClInclude Include="..\modules\kull_m_dpapi.h">
       <Filter>common modules</Filter>
     </ClInclude>
     <ClInclude Include="modules\kerberos\kuhl_m_kerberos_ccache.h">
       <Filter>local modules\kerberos</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_minesweeper.h">
-      <Filter>local modules</Filter>
     </ClInclude>
     <ClInclude Include="..\modules\kull_m_crypto.h">
       <Filter>common modules</Filter>
@@ -527,26 +488,14 @@
     <ClInclude Include="..\modules\kull_m_busylight.h">
       <Filter>common modules</Filter>
     </ClInclude>
-    <ClInclude Include="modules\kuhl_m_busylight.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
     <ClInclude Include="modules\dpapi\packages\kuhl_m_dpapi_wlan.h">
       <Filter>local modules\dpapi\packages</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_sysenvvalue.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_sid.h">
-      <Filter>local modules</Filter>
     </ClInclude>
     <ClInclude Include="modules\dpapi\packages\kuhl_m_dpapi_chrome.h">
       <Filter>local modules\dpapi\packages</Filter>
     </ClInclude>
     <ClInclude Include="..\modules\kull_m_xml.h">
       <Filter>common modules</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_iis.h">
-      <Filter>local modules</Filter>
     </ClInclude>
     <ClInclude Include="..\modules\rpc\kull_m_rpc.h">
       <Filter>common modules\rpc</Filter>
@@ -578,9 +527,6 @@
     <ClInclude Include="modules\kerberos\kuhl_m_kerberos_claims.h">
       <Filter>local modules\kerberos</Filter>
     </ClInclude>
-    <ClInclude Include="modules\kuhl_m_rpc.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
     <ClInclude Include="..\modules\rpc\kull_m_rpc_mimicom.h">
       <Filter>common modules\rpc</Filter>
     </ClInclude>
@@ -599,17 +545,11 @@
     <ClInclude Include="modules\crypto\kuhl_m_crypto_patch.h">
       <Filter>local modules\crypto</Filter>
     </ClInclude>
-    <ClInclude Include="modules\kuhl_m_sr98.h">
-      <Filter>local modules</Filter>
-    </ClInclude>
     <ClInclude Include="modules\crypto\kuhl_m_crypto_sc.h">
       <Filter>local modules\crypto</Filter>
     </ClInclude>
     <ClInclude Include="..\modules\kull_m_rdm.h">
       <Filter>common modules</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_rdm.h">
-      <Filter>local modules</Filter>
     </ClInclude>
     <ClInclude Include="..\modules\kull_m_hid.h">
       <Filter>common modules</Filter>
@@ -625,9 +565,6 @@
     </ClInclude>
     <ClInclude Include="..\modules\kull_m_acr.h">
       <Filter>common modules</Filter>
-    </ClInclude>
-    <ClInclude Include="modules\kuhl_m_acr.h">
-      <Filter>local modules</Filter>
     </ClInclude>
     <ClInclude Include="modules\dpapi\packages\kuhl_m_dpapi_rdg.h">
       <Filter>local modules\dpapi\packages</Filter>
@@ -701,6 +638,69 @@
     <ClInclude Include="modules\misc\kuhl_m_misc_citrix.h">
       <Filter>local modules\misc</Filter>
     </ClInclude>
+    <ClInclude Include="modules\kuhl_m_privilege.h">
+      <Filter>local modules\privilege</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_process.h">
+      <Filter>local modules\process</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_lsadump.h">
+      <Filter>local modules\lsadump</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_lsadump_remote.h">
+      <Filter>local modules\lsadump</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_acr.h">
+      <Filter>local modules\acr</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_busylight.h">
+      <Filter>local modules\busylight</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_crypto.h">
+      <Filter>local modules\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_iis.h">
+      <Filter>local modules\iis</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_rpc.h">
+      <Filter>local modules\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_sid.h">
+      <Filter>local modules\sid</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_event.h">
+      <Filter>local modules\event</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_sr98.h">
+      <Filter>local modules\sr98</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_minesweeper.h">
+      <Filter>local modules\minesweeper</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_rdm.h">
+      <Filter>local modules\rdm</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_misc.h">
+      <Filter>local modules\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_ts.h">
+      <Filter>local modules\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_vault.h">
+      <Filter>local modules\vault</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_token.h">
+      <Filter>local modules\token</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_service.h">
+      <Filter>local modules\service</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_sysenvvalue.h">
+      <Filter>local modules\sysenv</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\kuhl_m_service_remote.h">
+      <Filter>local modules\service</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="local modules">
@@ -743,6 +743,54 @@
     </Filter>
     <Filter Include="local modules\misc">
       <UniqueIdentifier>{ca3b8b78-3db9-40c8-8091-438a90e5be4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\privilege">
+      <UniqueIdentifier>{8dd15b95-e1e1-4409-9fc4-38676d483f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\process">
+      <UniqueIdentifier>{7832c3ef-a678-4600-8e7c-5218c050965b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\acr">
+      <UniqueIdentifier>{59502427-9556-4d97-8e66-a770d63451e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\busylight">
+      <UniqueIdentifier>{8877fb9b-dae7-4bb2-97ae-3c20f00c9381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\iis">
+      <UniqueIdentifier>{0945def2-9a28-460c-9678-a19f5d946b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\rpc">
+      <UniqueIdentifier>{d0a20dbe-aad6-463c-b5d4-e563725337cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\sid">
+      <UniqueIdentifier>{e5b730da-d97c-4f0c-8258-5db33d601236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\sr98">
+      <UniqueIdentifier>{ac4c3ebc-b534-4d16-9a24-84c0151055a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\event">
+      <UniqueIdentifier>{200a1698-3efe-49ae-81a5-747d46069e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\minesweeper">
+      <UniqueIdentifier>{69ab127b-474c-49fe-a335-fe628bae8177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\rdm">
+      <UniqueIdentifier>{13b4a0cf-853e-4c51-9cf7-b0213c057603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\ts">
+      <UniqueIdentifier>{ba787270-4d17-4565-bc16-9e27e11f6795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\vault">
+      <UniqueIdentifier>{a3daca9a-900e-4166-82ad-21e2532eb783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\token">
+      <UniqueIdentifier>{1929f2ed-b767-4fe8-bbfb-e80e15d0de5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\service">
+      <UniqueIdentifier>{1317d8ee-50cc-4329-a785-adf40314b2f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local modules\sysenv">
+      <UniqueIdentifier>{db1e4f0d-3333-4c01-baa7-316a86bf3a98}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
